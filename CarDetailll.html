@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Dancing+Script&family=Reem+Kufi+Fun:wght@500&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Reem+Kufi+Fun:wght@500&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/scss/owl.carousel.min.css">
+    <link rel="stylesheet" href="/assets/scss/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/assets/CarDetailll/Scss/index.css">
+    <title>Auto.ru: buy, sell and trade cars</title>
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header id="header">
+        <div class="container">
+            <div class="row">
+                <div class="header_home col-6 col-lg-4">
+                    <div id="menu-btn" class="menu-btn">
+                        <div class="menu-btn__burger"></div>
+                    </div>
+
+                    <a class="header_logoLink" href="index.html">
+                        <img class="autoLogo" src="/assets/img/autoLogo.svg " alt="logo.jpeg">
+                    </a>
+                    <div class="header_searchDiv">
+                        <form action="">
+                            <i class="fas fa-search"></i>
+                            <input id="header_searchInput" type="text" placeholder="Search by ads" name="search">
+                        </form>
+                    </div>
+                </div>
+                <div class="header_links col-4">
+                    <div class="header_menu_links">
+                        <div id="dark_mode" class="dark_mode">
+                            <i class="fa-solid fa-moon"></i>
+                        </div>
+                        <a class="link_div">
+                            <i class="fa-solid fa-heart"></i>
+                            <p>Favorites</p>
+                        </a>
+                        <a class="link_div">
+                            <i class="fa-solid fa-car"></i>
+                            <p>Comparison</p>
+                        </a>
+                        <a class="link_div">
+                            <i class="fa-solid fa-comment-dots"></i>
+                            <p>Messages</p>
+                        </a>
+                        <a class="link_div">
+                            <i class="fa-brands fa-sellcast"></i>
+                            <p>Sell</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="header_login_link col-6 col-lg-4">
+                    <a type="button" class="header_LoginBtn btn">Log in</a>
+                    <a type="button" id="header_PlaceBtn" class="header_PlaceBtn btn">Place for free</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container SearchInputLicontainer">
+        <div class="SearchInputLi_Place">
+            <div class="SearchInputLi d-none">
+                <a href="">
+                    <div class="Cards">
+                        <div class="img_Place">
+                            <img src="https://avatars.mds.yandex.net/get-vertis-journal/4466156/001.jpg_1663097227464/optimize"
+                                alt="">
+                        </div>
+                        <h5>All_Rubrics</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="header_logo_link_menu" class="header_logo_link_menu col-12">
+        <div class="container">
+            <div class="row">
+                <ul id="mobile_menu">
+                    <a class="mobile_menu" href="">Favorites</a>
+                    <a class="mobile_menu" href="">Comparison</a>
+                    <a class="mobile_menu" href="">Messages</a>
+                    <a class="mobile_menu" href="">Sell</a>
+                    <a class="mobile_menu" href="">Journal</a>
+                    <a class="mobile_menu" href="">Catalog</a>
+                </ul>
+                <div id="moto_and_car" class="moto_and_car">
+                    <ul>
+                        <a class="tittle" href="">Cars</a>
+                        <a href="">With mileage</a>
+                        <a href="">New cars</a>
+                        <a href="">Automotive news</a>
+                    </ul>
+                    <ul>
+                        <a class="tittle" href="">Moto</a>
+                        <a href="">Motorcycles</a>
+                        <a href="">Scooters</a>
+                        <a href="">ATVs</a>
+                        <a href="">Snowmobiles</a>
+                    </ul>
+                </div>
+                <ul id="trucks_for_logo_menu">
+                    <a class="tittle" href="">Commercial</a>
+                    <a href="">Light commercial</a>
+                    <a href="">Trucks</a>
+                    <a href="">Truck tractors</a>
+                    <a href="">Buses</a>
+                    <a href="">Trailers and semi-trailers</a>
+                    <a href="">Agricultural</a>
+                    <a href="">Construction and road</a>
+                    <a href="">Loaders</a>
+                    <a href="">Truck cranes</a>
+                    <a href="">Excavators</a>
+                    <a href="">Bulldozers</a>
+                    <a href="">Communal</a>
+                </ul>
+                <ul id="moto_for_logo_menu">
+                    <a class="tittle" href="">Journal</a>
+                    <a href="">News</a>
+                    <a href="">Parsing</a>
+                    <a href="">Collections</a>
+                    <a href="">Textbook</a>
+                    <a href="">About business</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="SecondHeaderLine">
+        <div class="container">
+            <div class="row">
+                <ul id="cars__ul" class="cars__ul">
+                    <li class="Cars__LI">
+                        <a id="Header_Cars_Btn" class="Cars" href="">Light Vehicles</a>
+                        <div id="Car_Menu" class="Car_Menu">
+                            <div class="container">
+                                <div class="CarMenu_Left col-2">
+                                    <a href="">
+                                        <p>With mileage</p>
+                                    </a>
+                                    <a href="">
+                                        <p>New cars</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Automotive news</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Catalog</p>
+                                    </a>
+                                </div>
+                                <div class="CarMenu_Right col-10">
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/allroad_296b6067dd6e0686135e918692ee306e.png"
+                                            alt="">
+                                        <p>All road</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/sedan_e32e26f2bda1d47e12229e7fc92664a9.png"
+                                            alt="">
+                                        <p>Sedan</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/hatchback_51abcd970f4ad51595068d0962e89ede.png"
+                                            alt="">
+                                        <p>Hatchback</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/liftback_561ee3ca968d4c8a1f57b33b5bb90791.png"
+                                            alt="">
+                                        <p>Liftback</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/wagon_d009419fc7cf4a27caf3012dada7678f.png"
+                                            alt="">
+                                        <p>Wagon</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/minivan_d8503fdcd879b4d178c061f4c7fb7992.png"
+                                            alt="">
+                                        <p>Minivan</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/coupe_2da80cd910bccfefb3f86a16d2c21c05.png"
+                                            alt="">
+                                        <p>Coupe</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/pickup_dc61b30f3c8ee984b764e9e67e232579.png"
+                                            alt="">
+                                        <p>Pickup</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/cabrio_cb27df36c2184759bcd16efbeaa19a4a.png"
+                                            alt="">
+                                        <p>Cabrio</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/CarsMenu/van_6f219508473e5a326a59d2f86153b237.png"
+                                            alt="">
+                                        <p>Van</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="Commercials__LI">
+                        <a class="Commercial" href="">Commercial</a>
+                        <div id="Car_Menu" class="Car_Menu">
+                            <div class="container">
+                                <div class="CarMenu_Right col-12">
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/lcv_100b367945454b1c7c0693f2b60a1170.png"
+                                            alt="">
+                                        <p>Light commercial</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/truck_df00312edaaaf85a44c401378df5d554.png"
+                                            alt="">
+                                        <p>Truck</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/download.png" alt="">
+                                        <p>Truck tractors</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/bus_cd40675d2a08bf486b5ba670ff096527.png"
+                                            alt="">
+                                        <p>Buses</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/download (1).png" alt="">
+                                        <p>Trailers and semi-trailers</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/agricultural_5a1524ddc7f3ecdceaae9ccef09680b4.png"
+                                            alt="">
+                                        <p>Agricultural</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/construction_a2b55977d84eb3bfc200771e37749176.png"
+                                            alt="">
+                                        <p>Construction</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/download (2).png" alt="">
+                                        <p href="">Loaders</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/crane_7eb65405e619230b2f986f3922d7b694.png"
+                                            alt="">
+                                        <p>Truck cranes</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/dredge_6b6a814833d33a02c11395902fcdeeb3.png"
+                                            alt="">
+                                        <p>Excavators</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/bulldozers_ae2735c8127247a52509f81d5b0001e7.png"
+                                            alt="">
+                                        <p>Bulldozers</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/TrucksMenu/municipal_8c83a04f24cc97db05e54f7b9d6b8ab0.png"
+                                            alt="">
+                                        <p>Communal</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="Moto_LI">
+                        <a class="Moto" href="">Moto</a>
+                        <div id="Car_Menu" class="Car_Menu">
+                            <div class="container">
+                                <div class="CarMenu_Right col-12">
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/MotoMenu/motorcycle_f0a3b8c6a13bdafaeba4658d4fd350cb.png"
+                                            alt="">
+                                        <p>Motorcycle</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/MotoMenu/scooters_c7785c19c3b47a1de643e5f27bb99212.png"
+                                            alt="">
+                                        <p>Scooters</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/MotoMenu/atv_35a084953b7b8546af361c40819fd753.png"
+                                            alt="">
+                                        <p>ATVs</p>
+                                    </a>
+                                    <a href="" class="cars">
+                                        <img src="/assets/img/header/MotoMenu/snowmobile_1ecb502465f149c4f8e7b8ef364840d1.png"
+                                            alt="">
+                                        <p>Snowmobiles</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a class="Electric_Cars" href="electro.html">Electric Cars
+                            <div class="Electric_Cars_Description">
+                                <img src="/assets/img/header/ElectroCarsMenu/DarkMenuLine.png" alt="">
+                                <h4>ELECTRIC CARS</h4>
+                                <h5>We tell you all about the intricacies of choosing an electric car in a new
+                                    section on Auto.ru</h5>
+                            </div>
+                        </a>
+                    </li>
+                    <li> <a class="News_Transports" href="">New Transports</a></li>
+                    <li> <a class="With_Mileage" href="">With Mileage</a></li>
+                    <li id="Journal_LI" class="Journal_LI"> <a class="Journal" href="">Journal</a>
+                        <div id="Car_Menu" class="Car_Menu">
+                            <div class="container">
+                                <div class="CarMenu_Left col-2">
+                                    <a href="">
+                                        <p>All rubrics</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Tests</p>
+                                    </a>
+                                    <a href="">
+                                        <p>News</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Parsing</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Collections</p>
+                                    </a>
+                                    <a href="">
+                                        <p>About business</p>
+                                    </a>
+                                    <a href="">
+                                        <p>Travels</p>
+                                    </a>
+                                </div>
+                                <div class="CarMenu_Right col-10">
+                                    <div class="Journal_Dropdown">
+                                        <div class="row">
+                                            <div class="Journal_Main col-7">
+                                                <a href="">
+                                                    <div class="Journal_Main_Img_Place">
+                                                        <img src="/assets/img/journal/politic/optimize.jpg" alt="">
+                                                    </div>
+                                                    <h5>Russians began to massively refuse OSAGO policies</h5>
+                                                </a>
+                                                <a href="">News</a>
+                                            </div>
+                                            <div class="Journal_Main_Card col-5">
+                                                <div class="Journal_Teaser_ListOfArticle_Place">
+                                                    <a href="" class="Journal_Teaser_ListOfArticle">
+                                                        <div class="Journal_Teaser_ListOfArticle_Img_Place">
+                                                            <img src="/assets/img/journal/three.jpg" alt="">
+                                                        </div>
+                                                        <div class="Journal_Teaser_ListOfArticle_Desc_Place">
+                                                            <h5>
+                                                                Three electric cars of the Russian brand Evolute debuted
+                                                                at the Moscow bike festival
+                                                            </h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="Journal_Teaser_ListOfArticle_Place">
+                                                    <a href="" class="Journal_Teaser_ListOfArticle">
+                                                        <div class="Journal_Teaser_ListOfArticle_Img_Place">
+                                                            <img src="/assets/img/journal/three.jpg" alt="">
+                                                        </div>
+                                                        <div class="Journal_Teaser_ListOfArticle_Desc_Place">
+                                                            <h5>
+                                                                Three electric cars of the Russian brand Evolute debuted
+                                                                at the Moscow bike festival
+                                                            </h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="Journal_Teaser_ListOfArticle_Place">
+                                                    <a href="" class="Journal_Teaser_ListOfArticle">
+                                                        <div class="Journal_Teaser_ListOfArticle_Img_Place">
+                                                            <img src="/assets/img/journal/jeep.jpg" alt="">
+                                                        </div>
+                                                        <div class="Journal_Teaser_ListOfArticle_Desc_Place">
+                                                            <h5>
+                                                                "Anti-crisis" Lada Niva Travel was photographed at the
+                                                                dealer's parking lot
+                                                            </h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="Journal_Teaser_ListOfArticle_Place">
+                                                    <a href="" class="Journal_Teaser_ListOfArticle">
+                                                        <div class="Journal_Teaser_ListOfArticle_Img_Place">
+                                                            <img src="/assets/img/journal/jeepGarage.jpg" alt="">
+                                                        </div>
+                                                        <div class="Journal_Teaser_ListOfArticle_Desc_Place">
+                                                            <h5>
+                                                                Forgotten in a garage for 10 years, the new Nissan
+                                                                X-Trail left Avto.ru in just 8
+                                                                days
+                                                            </h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                <div class="Journal_Teaser_ListOfArticle_Place">
+                                                    <a href="" class="Journal_Teaser_ListOfArticle">
+                                                        <div class="Journal_Teaser_ListOfArticle_Img_Place">
+                                                            <img src="/assets/img/journal/audi7.jpg" alt="">
+                                                        </div>
+                                                        <div class="Journal_Teaser_ListOfArticle_Desc_Place">
+                                                            <h5>
+                                                                From the ferocious Kruzak to the “ancestor” of Audi:
+                                                                announcements of the week on
+                                                                Auto.ru
+                                                            </h5>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="">
+                                            <div class="Journal_Show_All_Btn">
+                                                <h5>MORE MATERIALS</h5>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li> <a class="Catalog" href="">Catalog</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER END -->
+
+<div class="container">
+    <div class="cardetailselect col-12">
+        <div class="cardetailCharacteristicsPlace col-lg-3 col-12">
+            <h4>Characteristics</h4>
+            <div class="iconplace">
+                <i class="fa-solid fa-baby-carriage"></i>
+                <div class="text">
+                    <h5>Body</h5>
+                    <h4>Sedan</h4>
+                </div>
+            </div>
+            <div class="iconplace">
+                <i class="fa-brands fa-searchengin"></i>
+                <div class="text">
+                    <h5>Body</h5>
+                    <h4>Sedan</h4>
+                </div>
+            </div>
+            <div class="iconplace">
+                <i class="fa-solid fa-boxes-stacked"></i>
+                <div class="text">
+                    <h5>Body</h5>
+                    <h4>Sedan</h4>
+                </div>
+            </div>
+            <div class="iconplace">
+                <i class="fa-solid fa-screwdriver"></i>
+                <div class="text">
+                    <h5>Body</h5>
+                    <h4>Sedan</h4>
+                </div>
+            </div>
+            <div class="iconplace">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="text">
+                    <h5>Body</h5>
+                    <h4>Sedan</h4>
+                </div>
+            </div>
+            <div class="iconplace">
+                <i class="fa-solid fa-elevator"></i>
+                <div class="text">
+                    <h5>Body</h5>
+                    <h4>Sedan</h4>
+                </div>
+            </div>
+            <div class="iconplace">
+                <i class="fa-solid fa-gear"></i>
+                <div class="text">
+                    <h5>Body</h5>
+                    <h4>Sedan</h4>
+                </div>
+            </div>
+            <div class="iconplace">
+                <i class="fa-solid fa-rotate-right"></i>
+                <div class="text">
+                    <h5>Body</h5>
+                    <h4>Sedan</h4>
+                </div>
+            </div>
+            <div class="iconplace">
+                <i class="fa-solid fa-fire"></i>
+                <div class="text">
+                    <h5>Body</h5>
+                    <h4>Sedan</h4>
+                </div>
+            </div>
+            <div class="btnnumplace">
+                <button id="numbtnzzz" class="btn btn-success d-none numbtnzzz">055555555555555555555</button>
+                <button id="numbtn" class="btn btn-success">Show Number</button>
+            </div>
+        </div>
+        <div class="saleDetailPlace col-lg-3 col-12">
+            <h4>Sale</h4>
+            <h5>200000 $</h5>
+            <h3>180000 $</h3>
+            <div class="Discount_Card">
+                <h5>Discount up to 2000000 $</h5>
+                
+            </div>
+        </div>
+        <div id="gallery" class="gallery col-lg-6 col-12">
+            <img src="/assets/img/HarleyDavidson.jpg" />
+            <img src="/assets/img/MotoMan.jpg" />
+            <img src="/assets/img/cards/bmw-m3-gtr-street-stage-teaser.jpg" />
+            <img src="/assets/img/Catalog/Haval/haval-dargo-1-speredi.jpg" />
+            <img src="/assets/img/content/SmallElectroCar.jpg" />
+            <img src="/assets/img/HarleyDavidson.jpg" />
+            <img src="/assets/img/MotoMan.jpg" />
+            <img src="/assets/img/cards/bmw-m3-gtr-street-stage-teaser.jpg" />
+            <img src="/assets/img/Catalog/Haval/haval-dargo-1-speredi.jpg" />
+        </div>
+    </div>
+</div>
+
+    <!-- FOOTER START -->
+
+    <div class="container">
+        <div class="StartFooter">
+
+            <div id="car_list_footer" class="car_list_footer">
+                <ul>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                    <li><a href="">Mercedes-Benz(99)</a></li>
+                </ul>
+            </div>
+            <hr>
+            <div id="footer_desc_Place" class="footer_desc_Place">
+                <div class="footer_desc_left col-12 col-lg-6">
+                    <h5>Auto.ru — one of the most visited automotive sites on the Russian Internet</h5>
+                </div>
+                <div class="footer_desc_right col-12 col-lg-6">
+                    <h5>We offer a wide range of cars, trucks and commercial vehicles, motorcycles, special equipment
+                        and many other types of vehicles.</h5>
+                </div>
+            </div>
+            <hr>
+            <div class="Footer_End">
+                <div class="Social_For_Me :)">
+                    <a href=""><i class="fa-brands fa-vk"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-github"></i></a>
+                </div>
+                <h5>
+                    © 2021 – 2022
+                </h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER END -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+    integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"> </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"> </script>
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script src="/assets/CarDetailll/Js/script.js"></script>
+
+</html>
